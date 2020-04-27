@@ -1,0 +1,11 @@
+body{
+    background-image: url("img/icon.jpg");
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    border: 1px solid black;
+}
