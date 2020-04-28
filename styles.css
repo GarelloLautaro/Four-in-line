@@ -7,7 +7,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 90vh;
-    border: 1px solid black;
 }
 
 #main{
@@ -15,14 +14,13 @@ body{
     flex-direction: column;
     width: 600px;
     height: 500px;
-    border: 1px solid black;
+    
 }
 
 #top{
     display: flex;
     width: 100%;
     height: 70%;
-    border: 1px solid black;
 }
 
 #bot{
@@ -33,25 +31,32 @@ body{
 
 #left,#right{
     display: flex;
-    width: 15%;
-    border: 1px solid black;
+    width: 10%;
     background: #00aad4;
+    border-radius: 0px 40px 0px 0px;
+}
+#left{
+    border-radius: 40px 0px 0px 0px!important;
 }
 
 #center{
     display: flex;
-    width: 70%;
+    justify-content: space-evenly;
+    width: 90%;
     background: #0088aa;
 }
 
 #up,#down{
     display: flex;
     width: 100%;
-    height: 50%;
-    border: 1px solid black;
 }
 #up{
     background: #006680;
+    height: 15%;
+}
+#down{
+    background: white;
+    height: 30%;
 }
 
 .column{
@@ -60,7 +65,10 @@ body{
     justify-content: space-evenly;
     align-items: center;
     width: 12.5%;
-    border: 1px solid black;
+
+}
+.column:hover{
+    background: lightblue;
 }
 
 .row{
@@ -71,4 +79,34 @@ body{
     width: 50px;
     background: white;
     border-radius: 50%;
+}
+
+#you,#ai{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+}
+#ai{
+    justify-content: flex-end;
+}
+#go{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff6447;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+
+}
+.yellow{
+background: #FFCC00;
 }
