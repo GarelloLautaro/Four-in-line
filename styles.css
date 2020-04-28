@@ -1,4 +1,6 @@
 body{
+    display: flex;
+    flex-direction: column;
     background-image: url("img/icon.jpg");
 }
 
@@ -15,6 +17,18 @@ body{
     width: 600px;
     height: 500px;
     
+}
+
+#back{
+    display: flex;
+    justify-content: start;
+    width: 50px;
+    font-size: 15px;
+}
+#back:hover{
+    cursor: pointer;
+    color: purple;
+    font-size: 20px;
 }
 
 #top{
