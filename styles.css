@@ -111,6 +111,33 @@ body{
     width: 20%;
     font-family: 'Ubuntu', sans-serif;
 }
+#go {
+  font-family: 'Ubuntu', sans-serif;
+  align-self: center;
+  text-align: center;
+  margin-left: 15px;
+  color: #7d6400;
+  font-size: 13px;
+  background-color: #ffcc00;
+  height: 20px;
+  width: 18px;
+  position: relative;
+  float: left;
+  padding: 10px 8px 5px 5px;
+  margin: 0 0 4px 30px;
+}
+#go:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-right: 18px solid #ffcc00;
+  border-bottom: 18px solid transparent;
+}
+
 
 .circle{
     display: flex;
@@ -153,13 +180,7 @@ height: 200px;
 width: 200px;
 }
 .row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 15px;
     width: 15px;
-}
-#you #ai p{
-size: 1rem;
 }
 }
