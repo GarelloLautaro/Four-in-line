@@ -21,13 +21,13 @@ body{
 #back{
     display: flex;
     justify-content: start;
+    flex-direction: column;
     width: 50px;
     font-size: 15px;
 }
 #back:hover{
     cursor: pointer;
     color: purple;
-    font-size: 20px;
 }
 
 #top{
